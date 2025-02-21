@@ -18,7 +18,7 @@ public class ZooDatabaseManager implements IZooDataAccess {
     private ZooDatabaseManager() {
         // Initialisation de la connexion SQLite
         try {
-            // Chemin vers la BD, par ex. "zoo.db"
+            // Chemin vers la BD, par ex. "zoo1.db"
             String url = "jdbc:sqlite:Zoo1.db";
             connection = DriverManager.getConnection(url);
             // Crée la table si elle n'existe pas
